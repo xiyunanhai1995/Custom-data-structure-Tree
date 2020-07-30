@@ -1,7 +1,7 @@
 # Custom-data-structure-Tree
 ##实现自定义的数据结构——树
 
-I want you
+添加测试
 
 最近看了一些公司的面试题，发现涉及 IT技术，包括 AI 行业的题目都会涉及到最基本的 C/C++、数据结构和算法之类的，突发奇想写了一个貌似没啥用的数据结构，就当是复习了 [手工哭笑表情]
 # 1 结构
@@ -15,6 +15,9 @@ I want you
     color: #999;
     padding: 2px;">图1.1 自定义树的整体结构</div>
 </center>
+
+<p align="center"><img src="Pictures/1.1 结构.png" width="480"\></p>
+
 该自定义结构不同于二叉树及其他数据结构，每个节点的子节点**<font color=red>个数不受限制</font>**，最大限度**<font color=red>保留了数据的原始结构</font>**，并实现了其前序和后序遍历的方法。优点是节省了内存，但缺点则是基于链表结构查询的时间开销会相对较大。当然二者不可兼得  
 举个例子，图<font color=blue>1.1</font>所示，即是该自定义树的一种结构
 > **<font color=red>【注】</font>**：根节点 Root 仅用来表示树自身，其 data 不储存任何数据  
@@ -42,3 +45,5 @@ typedef struct TNode  //结点结构
 	LinkList     child;		//子节点指针 
 }TNode, *Tree;
 ```
+
+
