@@ -72,6 +72,8 @@ typedef struct Node
 
 控制台输出如<font color=blue>图2.2</font>所示，格式为 **<font color=red>(双亲节点name)  <——  (该节点的name: 该节点的data)</font>**。
 
+![test](Pictures/2.2.png) 
+
 <p align="center"><img src="Pictures/2.2 控制台输出.png" width="30%"\></p>
 <p align="center" style="color:orange; font-size:14px; color: #999; " >图2.2 前序遍历所有（控制台输出）</p>
 
