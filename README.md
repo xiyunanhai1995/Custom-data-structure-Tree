@@ -70,12 +70,12 @@ typedef struct Node
 <p align="center"><img src="Pictures/2.1 前序遍历所有.png" width="70%"\></p>
 <p align="center" style="color:orange; font-size:14px; color: #999; " >图2.1 前序遍历，包括所有节点</p>
 
-控制台输出如<font color=blue>图2.2</font>所示，格式为 **<font color=red>(双亲节点name)  <——  (该节点的name: 该节点的data)</font>**。
+控制台输出如<font color=blue>图2.2</font>所示，格式为 **<font color=red>(双亲节点name)  <——  (该节点的name: 该节点的data)</font>**。  
 
-![test](Pictures/2.2.png) 
 
 <p align="center"><img src="Pictures/2.2.png" width="30%"\></p>
-<p align="center" style="color:orange; font-size:14px; color: #999; " >图2.2 前序遍历所有（控制台输出）</p>
+<p align="center" style="color:orange; font-size:14px; color: #999; " >图2.2 前序遍历所有（控制台输出）</p>  
+
 
 > **<font color=red>【注】</font>**：Root 节点无双亲，故仅显示name和data。
 > 如图2.3所示为树的第（2）种：前序遍历，跳过所有head
@@ -85,8 +85,8 @@ typedef struct Node
 
  控制台输出如图2.4所示:
 
-<p align="center"><img src="Pictures/2.4 控制台输出.png" width="30%"\></p>
-<p align="center" style="color:orange; font-size:14px; color: #999; " >图2.4</p>
+<p align="center"><img src="Pictures/2.4.png" width="30%"\></p>
+<p align="center" style="color:orange; font-size:14px; color: #999; " >图2.4 控制台输出</p>
 
 ## 2.2 后序遍历
 对于节点删除操作，因为要从该节点的最后一个子节点开始倒序释放（避免指针失效），故需使用后序遍历。同理，分为上述两种遍历方式，笔者实现了第（2）种跳过head的后序遍历，但仍未能实现第（1）种所有节点的后序遍历（如有大佬实现，希望不吝指教 o(*￣▽￣*)   
@@ -97,8 +97,8 @@ typedef struct Node
 
 控制台输出如图2.6所示：
 
-<p align="center"><img src="Pictures/2.6 控制台输出.png" width="30%"\></p>
-<p align="center" style="color:orange; font-size:14px; color: #999; " >图2.6</p>
+<p align="center"><img src="Pictures/2.6.png" width="30%"\></p>
+<p align="center" style="color:orange; font-size:14px; color: #999; " >图2.6 控制台输出</p>
 
 # 3 插入
 
