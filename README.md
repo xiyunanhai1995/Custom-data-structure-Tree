@@ -72,7 +72,7 @@ typedef struct Node
 
 控制台输出如<font color=blue>图2.2</font>所示，格式为 **<font color=red>(双亲节点name)  <——  (该节点的name: 该节点的data)</font>**。
 
-<p align="center"><img src="Pictures/2.2 前序遍历所有（控制台输出）.png" width="30%"\></p>
+<p align="center"><img src="Pictures/2.2 控制台输出.png" width="30%"\></p>
 <p align="center" style="color:orange; font-size:14px; color: #999; " >图2.2 前序遍历所有（控制台输出）</p>
 
 > **<font color=red>【注】</font>**：Root 节点无双亲，故仅显示name和data。
@@ -83,7 +83,7 @@ typedef struct Node
 
  控制台输出如图2.4所示:
 
-<p align="center"><img src="Pictures/2.4 前序遍历，跳过head（控制台输出）.png" width="30%"\></p>
+<p align="center"><img src="Pictures/2.4 控制台输出.png" width="30%"\></p>
 <p align="center" style="color:orange; font-size:14px; color: #999; " >图2.4</p>
 
 ## 2.2 后序遍历
@@ -95,7 +95,7 @@ typedef struct Node
 
 控制台输出如图2.6所示：
 
-<p align="center"><img src="Pictures/2.6 后序遍历，跳过head（控制台输出）.png" width="30%"\></p>
+<p align="center"><img src="Pictures/2.6 控制台输出.png" width="30%"\></p>
 <p align="center" style="color:orange; font-size:14px; color: #999; " >图2.6</p>
 
 # 3 插入
@@ -147,7 +147,7 @@ typedef struct Node
 主要采用C语言编写，部分使用了C++语法（有些C++语法实在太好用了，没控制住不好意思...）
 OS：windows10；开发环境：Dev C++；编译器：MinGW GCC 4.8.1 32-bit Release（不过看控制台输出貌似使用的 G++ 编译器），所以如果编译失败的话建议换G++编译器试试
 
-<p align="center"><img src="Pictures/控制台编译信息.png" width="30%"\></p>
+<p align="center"><img src="Pictures/5 控制台编译信息.png" width="30%"\></p>
 
 已实现的功能函数如下：
 
