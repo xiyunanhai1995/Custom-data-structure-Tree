@@ -70,17 +70,22 @@ typedef struct Node
 <p align="center"><img src="Pictures/2.1 前序遍历所有.png" width="70%"\></p>
 <p align="center" style="color:orange; font-size:14px; color: #999; " >图2.1 前序遍历，包括所有节点</p>
 
-控制台输出如<font color=blue>图2.2</font>所示，格式为 **<font color=red>(双亲节点name)  <——  (该节点的name: 该节点的data)</font>**。  
+控制台输出如<font color=blue>图2.2</font>所示，格式为 **<font color=red>(双亲节点name)  <——  (该节点的name: 该节点的data)</font>**。   
 
-<img src="Pictures/2.2.png" width="280">  
-
-![test](Pictures/2.2.png)  
-
-<p align="center"><img src="Pictures/2.2.png" width="480"\></p>  
-
-<p align="center"><img src="Pictures/2.2.png" width="30%"\></p>
-<p align="center" style="color:orange; font-size:14px; color: #999; " >图2.2 前序遍历所有（控制台输出）</p>  
-
+```
+-------- Tree --------   
+Root: 0  
+(Root) <-- (Root_head: 3)   
+(Root) <-- (A: 1)   
+(A) <-- (A_head: 1)   
+(A) <-- (D: 4)   
+(Root) <-- (B: 2)   
+(B) <-- (B_head: 2)   
+(B) <-- (E: 5)   
+(B) <-- (F: 6)    
+(Root) <-- (C: 3)     
+```
+<p align="center" style="color:orange; font-size:14px; color: #999; " >图2.2 控制台输出</p>
 
 > **<font color=red>【注】</font>**：Root 节点无双亲，故仅显示name和data。
 > 如图2.3所示为树的第（2）种：前序遍历，跳过所有head
@@ -88,9 +93,19 @@ typedef struct Node
 <p align="center"><img src="Pictures/2.3 前序遍历，跳过head.png" width="50%"\></p>
 <p align="center" style="color:orange; font-size:14px; color: #999; " >图2.3 前序遍历，跳过所有head</p>
 
- 控制台输出如图2.4所示:
+控制台输出如下所示:
+> 图2.2显示不出来，可在Pictures中查看
 
-<p align="center"><img src="Pictures/2.4.png" width="30%"\></p>
+```
+-------- Tree --------   
+Root: 0  
+(Root) <-- (A: 1)   
+(A) <-- (D: 4)   
+(Root) <-- (B: 2)   
+(B) <-- (E: 5)   
+(B) <-- (F: 6)   
+(Root) <-- (C: 3)       
+```
 <p align="center" style="color:orange; font-size:14px; color: #999; " >图2.4 控制台输出</p>
 
 ## 2.2 后序遍历
@@ -100,9 +115,18 @@ typedef struct Node
 <p align="center"><img src="Pictures/2.5 后序遍历，跳过head.png" width="50%"\></p>
 <p align="center" style="color:orange; font-size:14px; color: #999; " >图2.5 后序遍历，跳过所有head</p>
 
-控制台输出如图2.6所示：
+控制台输出如下所示:
+> 图2.6显示不出来，可在Pictures中查看
 
-<p align="center"><img src="Pictures/2.6.png" width="30%"\></p>
+```
+-------- Tree --------    
+(A) <-- (D: 4)   
+(Root) <-- (A: 1)   
+(B) <-- (E: 5)   
+(B) <-- (F: 6)   
+(Root) <-- (B: 2)  
+(Root) <-- (C: 3)       
+```
 <p align="center" style="color:orange; font-size:14px; color: #999; " >图2.6 控制台输出</p>
 
 # 3 插入
