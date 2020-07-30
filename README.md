@@ -21,14 +21,14 @@
 
 程序定义如下：  
 
-```
-typedef struct TNode  //结点结构
-{
-	char         *name;		//结点名称 
-	TElemType    data;		//结点数据
-	struct TNode *parent;	                //双亲节点指针 
-	LinkList     child;		//子节点指针 
-}TNode, *Tree;
+```  
+typedef struct TNode  //结点结构  
+{  
+	char         *name;		//结点名称   
+	TElemType    data;		//结点数据  
+	struct TNode *parent;	//双亲节点指针  
+	LinkList     child;		//子节点指针   
+}TNode, *Tree;  
 ```
 
 > **<font color=red>【注】</font>**：name为节点的标识符（等同于 ID 标记），根据名称长度分配不同大小的**动态内存**，**<font color=red>不可重复</font>**，TElemType为节点包含的数据类型，作者定义为 int，根据实际需要修改。
@@ -72,6 +72,10 @@ typedef struct Node
 
 控制台输出如<font color=blue>图2.2</font>所示，格式为 **<font color=red>(双亲节点name)  <——  (该节点的name: 该节点的data)</font>**。   
 
+
+控制台输出如下所示:
+> 图2.2显示不出来，可在`Pictures`文件夹中查看
+
 ```
 -------- Tree --------   
 Root: 0  
@@ -94,7 +98,7 @@ Root: 0
 <p align="center" style="color:orange; font-size:14px; color: #999; " >图2.3 前序遍历，跳过所有head</p>
 
 控制台输出如下所示:
-> 图2.2显示不出来，可在Pictures中查看
+> 图2.4显示不出来，可在`Pictures`中查看
 
 ```
 -------- Tree --------   
@@ -116,7 +120,7 @@ Root: 0
 <p align="center" style="color:orange; font-size:14px; color: #999; " >图2.5 后序遍历，跳过所有head</p>
 
 控制台输出如下所示:
-> 图2.6显示不出来，可在Pictures中查看
+> 图2.6显示不出来，可在`Pictures中`查看
 
 ```
 -------- Tree --------    
